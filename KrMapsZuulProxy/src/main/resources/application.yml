@@ -1,0 +1,41 @@
+ribbon:
+  ConnectTimeout: 120000
+  ReadTimeout: 120000
+
+#Application
+server:
+  port: 8310
+spring:
+  application:
+    name: krmaps-zuul-proxy
+
+#Eureka
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8661/eureka
+  instance:
+    hostname: localhost
+
+#Zuul Proxy
+zuul:
+  host:
+    time-to-live: -1
+    connect-timeout-millis: 50000
+    max-per-route-connections: 100000
+    max-total-connections: 50000
+    socket-timeout-millis: 600000
+    semaphore:
+      max-semaphores: 5000
+  ignoredServices: '*'
+  routes:
+    user-service:
+      path: /repository/**
+      serviceId: krmaps-client-repository
+      stripPrefix: true
+    geo-tools-user-service:
+      path: /geo-tools/**
+      serviceId: krmaps-geo-tools
+      stripPrefix: true

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="KrMapsClientRepository" />
+        <module name="KrMapsZuulProxy" />
+        <module name="KrMapsServer" />
+        <module name="KrMapsGeoTools" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="KrMapsClientRepository" target="11" />
+      <module name="KrMapsGeoTools" target="11" />
+      <module name="KrMapsServer" target="11" />
+      <module name="KrMapsZuulProxy" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="KrMapsClientRepository" options="-parameters" />
+      <module name="KrMapsGeoTools" options="-parameters" />
+      <module name="KrMapsServer" options="-parameters" />
+      <module name="KrMapsZuulProxy" options="-parameters" />
+    </option>
+  </component>
+</project>
