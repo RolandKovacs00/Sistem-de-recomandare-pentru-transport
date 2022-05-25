@@ -8,6 +8,9 @@
         <option value="$PROJECT_DIR$/KrMapsGeoTools/pom.xml" />
         <option value="$PROJECT_DIR$/KrMapsGeoTools/KrMapsZuulProxy/pom.xml" />
         <option value="$PROJECT_DIR$/KrMapsZuulProxy/pom.xml" />
+        <option value="$PROJECT_DIR$/KrMapsFeignClientRepository/pom.xml" />
+        <option value="$PROJECT_DIR$/KrMapsFeignClient/pom.xml" />
+        <option value="$PROJECT_DIR$/KrMapsFeignGeoTools/pom.xml" />
       </list>
     </option>
   </component>

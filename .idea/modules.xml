@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/KrMapsClientRepository/KrMapsClientRepository.iml" filepath="$PROJECT_DIR$/KrMapsClientRepository/KrMapsClientRepository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KrMapsFeignClient/KrMapsFeignClient.iml" filepath="$PROJECT_DIR$/KrMapsFeignClient/KrMapsFeignClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KrMapsFeignGeoTools/KrMapsFeignGeoTools.iml" filepath="$PROJECT_DIR$/KrMapsFeignGeoTools/KrMapsFeignGeoTools.iml" />
       <module fileurl="file://$PROJECT_DIR$/KrMapsGeoTools/KrMapsGeoTools.iml" filepath="$PROJECT_DIR$/KrMapsGeoTools/KrMapsGeoTools.iml" />
       <module fileurl="file://$PROJECT_DIR$/KrMapsServer/KrMapsServer.iml" filepath="$PROJECT_DIR$/KrMapsServer/KrMapsServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/KrMapsZuulProxy/KrMapsZuulProxy.iml" filepath="$PROJECT_DIR$/KrMapsZuulProxy/KrMapsZuulProxy.iml" />

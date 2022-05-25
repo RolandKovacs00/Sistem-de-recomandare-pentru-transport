@@ -9,12 +9,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="KrMapsClientRepository" />
         <module name="KrMapsZuulProxy" />
+        <module name="KrMapsFeignClient" />
+        <module name="KrMapsFeignGeoTools" />
         <module name="KrMapsServer" />
         <module name="KrMapsGeoTools" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="KrMapsClientRepository" target="11" />
+      <module name="KrMapsFeignClient" target="11" />
+      <module name="KrMapsFeignClientRepository" target="11" />
+      <module name="KrMapsFeignGeoTools" target="11" />
       <module name="KrMapsGeoTools" target="11" />
       <module name="KrMapsServer" target="11" />
       <module name="KrMapsZuulProxy" target="11" />
@@ -23,6 +28,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="KrMapsClientRepository" options="-parameters" />
+      <module name="KrMapsFeignClient" options="-parameters" />
+      <module name="KrMapsFeignClientRepository" options="-parameters" />
+      <module name="KrMapsFeignGeoTools" options="-parameters" />
       <module name="KrMapsGeoTools" options="-parameters" />
       <module name="KrMapsServer" options="-parameters" />
       <module name="KrMapsZuulProxy" options="-parameters" />
